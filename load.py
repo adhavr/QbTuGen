@@ -89,8 +89,9 @@ if st.button("Generate Question"):
                                "For 10 points, name this metal found alongside carbon in steel. Give only the question. Nothing else.",
                 }
             ],
-            model="compound-beta",
+            model="llama-3.3-70b-versatile",
         )
 
         st.success("Here’s your generated question:")
         st.write(chat2.choices[0].message.content)
+
