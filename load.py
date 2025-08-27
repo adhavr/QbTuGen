@@ -4,7 +4,7 @@ import re
 from groq import Groq
 
 # Set your Groq API key
-API_KEY = ""
+API_KEY = st.secrets("API_KEY")
 
 # Function to fetch tossups
 def get_tossups(answerline, min_diff, max_diff):
@@ -97,3 +97,4 @@ if st.button("Generate Question"):
 
             st.success("Here’s your generated question:")
             st.write(chat2.choices[0].message.content)
+
