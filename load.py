@@ -78,7 +78,7 @@ if st.button("Generate Question"):
                                "\nUsing this, write a new quiz bowl question incorporating these clues and any outside knowledge to fill gaps. "
                                "The beginning of the question should have less common clues, and the end of the question should have more common clues. "
                                "Make the first sentence or two novel clues based on your knowledge of the subject if you see an opportunity for that. These should be harder and more obscure "
-                               "than whatever is in the question and NOT INCLUDE THE ANSWERLINE AT ALL ANYWHERE IN THE CLUE. Add a powermark, denoted (*), where "
+                               "than whatever is in the question and NOT INCLUDE THE ANSWERLINE AT ALL ANYWHERE IN THE CLUE. To reiterate, IF YOU SEARCHED FOR THE ANSWERLINE IN THE QUESTION, THERE SHOULD BE NO RESULTS. Add a powermark, denoted (*), where "
                                "the difficulty changes from harder to easier. It should be of the rough length and format: "
                                "This element is found in a catalyst used alongside hydrogen peroxide and acetic acid to oxidize aliphatic C-H bonds; that is the White-Chen catalyst. "
                                "This element is used as the catalyst in the high-temperature version of the Fischer-Tropsch process. "
